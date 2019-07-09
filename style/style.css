@@ -1,0 +1,54 @@
+body {
+	font-family:monospace,monospace;
+	font-size:1em;
+}
+
+textarea {
+	width: 33%;
+	margin: 0px;
+	padding: 13px;
+}
+			
+#sinistra, #sinistra2, #sinistra3 { 
+				
+	border: solid 1px green;
+	float: left;
+	width: 33%;
+	max-width: 15em
+}
+			
+#sinistra3 table, #sinistra2 table, #sinistra table, #destra table {
+	border-collapse: collapse;
+	margin: 50px;
+	padding: 1px;
+}
+			
+						
+#sinistra table, th, td {
+	border: 1px solid black;
+} 
+		
+#sinistra2 table, th, td {
+	border: 1px solid black;
+} 		
+
+#destra { 
+	border: solid 1px green;
+	float: left;
+	width: 33%;
+	max-width: 15em
+}
+			
+#program{
+	border: solid 1px black;
+	float: left;
+	width: 33%;
+	max-width: 15em
+}
+			
+#pulsanti{
+	border: solid 1px green;
+	float: left;
+	padding: 2px;
+	margin: 0px;
+}
